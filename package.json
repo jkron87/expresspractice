@@ -3,13 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "nodemon": "^1.10.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkron87/expresspractice.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.14.0",
-  }
+  "bugs": {
+    "url": "https://github.com/jkron87/expresspractice/issues"
+  },
+  "homepage": "https://github.com/jkron87/expresspractice#readme"
 }
